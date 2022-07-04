@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;&display=swap');
 
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -14,9 +14,7 @@ h1{
 span{
     color: #ffb222;
 }
-section{
-    display: flex;
-}
+
 .half-width{
     width: 50%;
     padding-left: 2%;
