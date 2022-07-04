@@ -40,3 +40,73 @@ span{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url('/images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    display: flex;
+}
+.item-left{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+.item-right{
+    width: 50%;
+  margin-right: 5%;
+  padding: 2%;
+}
+.orange-color{
+    color: orange;
+}
+footer{
+    text-align: center;
+}
+
+
+
+.developement{
+    background: url('/images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.develope-item{
+    display: flex;
+  }
+  
+  
+  .dev-left {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-left: 8px solid tomato;
+  }
+  
+  .dev-right{
+    width: 50%;
+    margin-right: 5%;
+    padding: 2%;
+    border-left: 8px solid tomato;
+  }
+  
+  .develope-item div {
+      height: 80%;
+      box-shadow: 5px 7px 40px gray;
+  }
+  
+  .dev-left h2, .dev-right h2 {
+    font-size: 30px;
+  }
+  
+  .dev-left h3, .dev-right h3{
+    color:#ff4800e0;
+  }
+  
+  .dev-left p, .dev-right p {
+    text-align: justify;
+  }
